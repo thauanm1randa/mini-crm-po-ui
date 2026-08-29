@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Minicrm
 
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 21.2.21.
@@ -57,3 +58,7 @@ Angular CLI does not come with an end-to-end testing framework by default. You c
 ## Additional Resources
 
 For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+=======
+# mini-crm-po-ui
+Mini CRM em Angular com PO UI: cadastro de clientes, oportunidades e follow-ups. Projeto prático de aprendizado.
+>>>>>>> a3cff52cb67c27376fc2ed20f2bce495c5d02c55
