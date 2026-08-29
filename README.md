@@ -1,64 +1,32 @@
-<<<<<<< HEAD
-# Minicrm
+# Mini CRM — Angular + PO UI
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 21.2.21.
+Mini CRM desenvolvido como projeto prático de aprendizado, explorando os
+componentes do PO UI (TOTVS) em uma aplicação Angular.
 
-## Development server
+## Funcionalidades
 
-To start a local development server, run:
+- Cadastro de clientes
+- Registro de oportunidades
+- Acompanhamento de follow-ups
 
-```bash
-ng serve
-```
+## Tecnologias
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+- Angular 21
+- PO UI
+- TypeScript
 
-## Code scaffolding
+## Como executar
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+Instale as dependências:
 
-```bash
-ng generate component component-name
-```
+    npm install
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+Inicie o servidor de desenvolvimento:
 
-```bash
-ng generate --help
-```
+    ng serve
 
-## Building
+A aplicação ficará disponível em `http://localhost:4200/`.
 
-To build the project run:
+## Licença
 
-```bash
-ng build
-```
-
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Vitest](https://vitest.dev/) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
-=======
-# mini-crm-po-ui
-Mini CRM em Angular com PO UI: cadastro de clientes, oportunidades e follow-ups. Projeto prático de aprendizado.
->>>>>>> a3cff52cb67c27376fc2ed20f2bce495c5d02c55
+MIT
