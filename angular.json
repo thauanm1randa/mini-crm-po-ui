@@ -23,6 +23,21 @@
               {
                 "glob": "**/*",
                 "input": "public"
+              },
+              {
+                "glob": "**/*",
+                "input": "node_modules/@po-ui/style/fonts",
+                "output": "/fonts"
+              },
+              {
+                "glob": "**/*",
+                "input": "node_modules/@po-ui/style/icons",
+                "output": "/icons"
+              },
+              {
+                "glob": "**/*",
+                "input": "node_modules/@po-ui/style/images",
+                "output": "/images"
               }
             ],
             "styles": [
