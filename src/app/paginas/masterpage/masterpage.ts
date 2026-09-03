@@ -1,14 +1,16 @@
 import { Component } from '@angular/core';
-import { PoMenuPanelItem, PoMenuPanelModule } from '@po-ui/ng-components';
+import { RouterModule } from '@angular/router';
+import { PoMenuPanelItem, PoMenuPanelModule, PoPageModule } from '@po-ui/ng-components';
 
 @Component({
   selector: 'app-masterpage',
   standalone: true,
-  imports: [PoMenuPanelModule],
+  imports: [PoMenuPanelModule, PoPageModule, RouterModule],
   templateUrl: './masterpage.html',
   styleUrl: './masterpage.css',
 })
 export class Masterpage {
+  title = 'Home';
   readonly menus: Array<PoMenuPanelItem>=[
     {label:'Home',link:'home',action:this.clickItemMenu.bind(this),icon:'an an-house'},
     {label:'Customers',link:'customers',action:this.clickItemMenu.bind(this),icon:'an an-user'},
@@ -18,6 +20,7 @@ export class Masterpage {
 
   ]
   clickItemMenu(menu: PoMenuPanelItem):void{
+    this.title = menu.label
 
   }
 }

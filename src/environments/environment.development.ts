@@ -1,4 +1,4 @@
 export const environment = {
     ambiente: 'dev',
-    url: 'http://localhost:8081/rest'
+    url: 'https://erp:2200/api'
 };
